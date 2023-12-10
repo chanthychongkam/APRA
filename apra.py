@@ -3,4 +3,5 @@ import streamlit as st
 st.title("Project Archie - APRA POC")
 st.write('Hello Archie version 3')
 
-vABN= st.text_input(label='ABN')
+with st.sidebar:
+    vABN= st.text_input(label='ABN')
